@@ -5,7 +5,7 @@ Home: https://pypi.org/project/mkdocs-material-extensions/
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Extension pack for Python Markdown
 
