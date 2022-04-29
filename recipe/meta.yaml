@@ -11,7 +11,7 @@ source:
   sha256: bfd24dfdef7b41c312ede42648f9eb83476ea168ec163b613f9abd12bbfddba2
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -20,9 +20,10 @@ requirements:
     - pip
     - python >=3.5
   run:
-    - mkdocs-material >=5.0.0
     - python >=3.5
     - pygments <2.12,>=2.10
+  run_constrained:
+    - mkdocs-material >=5.0.0
 
 test:
   imports:
