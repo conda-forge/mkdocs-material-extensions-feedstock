@@ -21,7 +21,6 @@ requirements:
     - python >=3.5
   run:
     - python >=3.5
-    - pygments <2.12,>=2.10
   run_constrained:
     - mkdocs-material >=5.0.0
 
