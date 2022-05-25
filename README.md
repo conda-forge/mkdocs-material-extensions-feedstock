@@ -5,7 +5,7 @@ Home: https://pypi.org/project/mkdocs-material-extensions/
 
 Package license: MIT
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/mkdocs-material-extensions-feedstock/blob/master/LICENSE.txt)
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/mkdocs-material-extensions-feedstock/blob/main/LICENSE.txt)
 
 Summary: Extension pack for Python Markdown
 
@@ -15,8 +15,8 @@ Current build status
 
 <table><tr><td>All platforms:</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9820&branchName=master">
-        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/mkdocs-material-extensions-feedstock?branchName=master">
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9820&branchName=main">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/mkdocs-material-extensions-feedstock?branchName=main">
       </a>
     </td>
   </tr>
