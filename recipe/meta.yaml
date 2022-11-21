@@ -38,6 +38,7 @@ test:
     - pip
     - mkdocs-material >=5.0.0
     - pytest
+    - requests
 
 about:
   home: https://github.com/facelessuser/mkdocs-material-extensions
