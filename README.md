@@ -1,7 +1,7 @@
 About mkdocs-material-extensions
 ================================
 
-Home: https://pypi.org/project/mkdocs-material-extensions/
+Home: https://github.com/facelessuser/mkdocs-material-extensions
 
 Package license: MIT
 
@@ -144,6 +144,8 @@ Feedstock Maintainers
 =====================
 
 * [@dgasmith](https://github.com/dgasmith/)
+* [@dhirschfeld](https://github.com/dhirschfeld/)
 * [@marcelotrevisani](https://github.com/marcelotrevisani/)
+* [@thewchan](https://github.com/thewchan/)
 * [@vallsv](https://github.com/vallsv/)
 
