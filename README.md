@@ -1,11 +1,11 @@
-About mkdocs-material-extensions
-================================
+About mkdocs-material-extensions-feedstock
+==========================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/mkdocs-material-extensions-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/facelessuser/mkdocs-material-extensions
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/mkdocs-material-extensions-feedstock/blob/main/LICENSE.txt)
 
 Summary: Extension pack for Python Markdown
 
