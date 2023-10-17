@@ -19,9 +19,9 @@ requirements:
   host:
     - hatchling >=0.21.1
     - pip
-    - python >=3.7
+    - python >=3.8
   run:
-    - python >=3.7
+    - python >=3.8
   run_constrained:
     - mkdocs-material >=5.0.0
 
