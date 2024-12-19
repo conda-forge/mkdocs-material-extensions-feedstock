@@ -7,11 +7,11 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/mkdocs_material_extensions-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/mkdocs_material_extensions-{{ version }}.tar.gz
   sha256: 10c9511cea88f568257f960358a467d12b970e1f7b2c0e5fb2bb48cab1928443
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -19,9 +19,9 @@ requirements:
   host:
     - hatchling >=0.21.1
     - pip
-    - python >=3.8
+    - python {{ python_min }}
   run:
-    - python >=3.8
+    - python >={{ python_min }}
   run_constrained:
     - mkdocs-material >=5.0.0
 
@@ -39,6 +39,7 @@ test:
     - mkdocs-material >=5.0.0
     - pytest
     - requests
+    - python {{ python_min }}
 
 about:
   home: https://github.com/facelessuser/mkdocs-material-extensions
